@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class BeerStoreController {
-	@RequestMapping("/status")
+	@RequestMapping("/")
 	public String status() {
 		return "BeerStore is up!";
 	}
